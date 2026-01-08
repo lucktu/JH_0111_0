@@ -11,7 +11,7 @@ log = "0.4.17"
 
 [features]
 default = ["default-feature"]
-# MINIMAL CONFIGURATION FOR UNDER 1MB
+## MINIMAL CONFIGURATION FOR UNDER 1MB
 default-feature = ["aes_gcm", "server_encrypt"]
 
 openssl = ["vn-link/openssl", "common/openssl"]
